@@ -1079,7 +1079,13 @@ struct Monkey {
 
 [^2]: ...or pretty much anything Andy says.
 
-^ FOr more information, check out these talks
+^ For more information, check out these talks
+
+---
+
+#[fit] https://github.com/eliperkins/staters-gonna-state
+
+^ You can also find this talk online on GitHub.
 
 ---
 
