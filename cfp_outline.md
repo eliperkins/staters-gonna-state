@@ -1,0 +1,15 @@
+- The immense value of immutability
+  - Simplicity and reliability of immutable objects
+  - How immutability can remove layers of state pushing things to the value layer
+- Finding the source of truth in solving your problem
+  - Making decisions of your structure based on where the truth lies
+  - Creating an architecture that allows for values to change the truth and for the truth to change the values (see Facebook's AsyncDisplayKit talks about architechture, also how MVVM structure helps divide these)
+- Value vs reference types in Swift
+  - Touching on immutability and it's benefits
+  - Analyze design decisions made in Swift standard lib (favoring structs)
+  - Bridging Obj-C frameworks with value based Swift
+- Reducing LoC, reducing state from legacy code, and preventing new state in new code
+  - Analyze sample project refactor, taking out stateful code, introducing stateless core, stateful shell
+- How functional paradigms can help reduce state
+  - How map, fmap, flatMap, bind and friends can all introduce more stateless values with no need for mutability
+  - MVVM and FRP coexisting to create a stateless core that can be reused as needed
